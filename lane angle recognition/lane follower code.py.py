@@ -68,7 +68,7 @@ def draw_lane_line(image, lane):
     cv2.line(image, (x1, y1), (x2, y2), (0, 255, 0), 10)
 
 
-video = cv2.VideoCapture("C:\\Users\\ayan5\Downloads\\road12.webm")
+video = cv2.VideoCapture("road12.webm")
 #video = cv2.VideoCapture(0)
 
 if not video.isOpened():
